@@ -19,7 +19,7 @@ const query = `
 # GraphQL query comments use a hashtag.
 # Create queries at the GitHub API Explorer: https://docs.github.com/en/graphql/overview/explorer
 query {
-  user(login: "nbhankes") {
+  user(login: "ADD_YOUR_USERNAME_HERE") {
     repositories {
       totalCount
     }
@@ -35,7 +35,7 @@ query {
 
 // Create your github access token at: https://github.com/settings/tokens
 // GitHub recommends allowing specific scoped permissions. See list at: https://docs.github.com/en/graphql/guides/forming-calls-with-graphql
-const token = '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'
+const token = 'ADD_YOUR_TOKEN_HERE'
 const auth = {
     headers: {
         authorization: 'token ' + token
@@ -48,12 +48,8 @@ const auth = {
 async function niceRequest(query, auth) {
    return await graphql(query, auth)
 }
-// You can use ES6 syntax to make it semantic and in one-line!
-    //const niceRequest = async (q, a) => await graphql(q, a)
-
 
 /* STEP 4: USE THE FUNCTION */
 // This will resolve the promise and print it to console.
 // You can expand the objects and subobjects to see data.
 console.log(niceRequest(query, auth))
-// Congratulations! You ran a VanillaJS GraphQL query!
