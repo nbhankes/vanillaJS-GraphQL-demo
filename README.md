@@ -1,5 +1,7 @@
 ## Welcome.
 
+See the [Live Demo](https://vanillajs-graphql-demo.surge.sh/)
+
 To get this demo working on your local environment, follow these steps:
 
 1. Clone the repo to your local system using the Git CLI language:
