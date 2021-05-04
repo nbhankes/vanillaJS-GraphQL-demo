@@ -7,11 +7,11 @@ h1 {
 }
 
 .ceo-card-container {
-  width: 60%;
+  width: 30rem;
   height: auto;
   font-family: sans-serif;
   padding: 1rem 2rem;
-  margin: 25% auto;
+  margin: 5% auto;
   color: white;
   background: #131313;
   border-radius: 10px;
