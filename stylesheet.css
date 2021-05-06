@@ -1,5 +1,5 @@
 html {
-  background: #e79c20;
+  background: #eaebea;
 }
 
 h1 {
@@ -7,11 +7,11 @@ h1 {
 }
 
 .ceo-card-container {
-  width: 30rem;
+  max-width: 30rem;
   height: auto;
   font-family: sans-serif;
   padding: 1rem 2rem;
-  margin: 5% auto;
+  margin: 5rem auto;
   color: white;
   background: #131313;
   border-radius: 10px;
